@@ -10,6 +10,8 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    var imageIndex:Int = 0
 
     var window: UIWindow?
 
