@@ -135,8 +135,10 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
+    //拡大画面から戻ってきた時の動作
     @IBAction func unwind(segue: UIStoryboardSegue){
-        
+        //拡大画像した画像を表示する。
+        displayImage(self.delegate.imageIndex)
     }
 
 }

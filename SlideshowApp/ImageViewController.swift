@@ -18,7 +18,6 @@ class ImageViewController: UIViewController {
         super.viewDidLoad()
         
         let name = "img_\(self.delegate.imageIndex + 1)_l.jpg"
-        print(name)
         let image = UIImage(named: name)
         imageView.image = image
         
